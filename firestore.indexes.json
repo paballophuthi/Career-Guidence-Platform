@@ -1,0 +1,21 @@
+﻿{
+  \"indexes\": [
+    {
+      \"collectionGroup\": \"applications\",
+      \"queryScope\": \"COLLECTION\",
+      \"fields\": [
+        { \"fieldPath\": \"institutionId\", \"order\": \"ASCENDING\" },
+        { \"fieldPath\": \"status\", \"order\": \"ASCENDING\" }
+      ]
+    },
+    {
+      \"collectionGroup\": \"jobs\",
+      \"queryScope\": \"COLLECTION\", 
+      \"fields\": [
+        { \"fieldPath\": \"companyId\", \"order\": \"ASCENDING\" },
+        { \"fieldPath\": \"deadline\", \"order\": \"DESCENDING\" }
+      ]
+    }
+  ],
+  \"fieldOverrides\": []
+}
