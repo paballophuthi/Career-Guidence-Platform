@@ -1,24 +1,36 @@
-﻿# Career Guidance and Employment Integration Platform
+﻿# Career Guidance Platform
 
-A web application to help high school students find colleges/universities in Lesotho and apply for courses online, and help graduates find jobs by uploading their transcripts.
+A comprehensive web application for career guidance and employment integration in Lesotho.
 
 ## Features
 - 🎓 Student course applications
-- 🏫 Institution management
+- 🏫 Institution management  
 - 💼 Company job postings
 - 👨‍💼 Admin system control
 - 📄 Transcript upload and verification
 
 ## Tech Stack
-- Frontend: React.js
-- Backend: Node.js
-- Database: Firebase Firestore
-- Hosting: Cloud platform (Vercel/Firebase)
+- **Frontend:** React.js, Bootstrap
+- **Backend:** Node.js, Express
+- **Database:** Firebase Firestore
+- **Hosting:** Vercel (Frontend), Render (Backend)
+
+## Quick Start
+\\\ash
+# Install all dependencies
+npm run install:all
+
+# Run both frontend and backend
+npm run dev:all
+\\\
 
 ## Group Members
-- [Name 1]
-- [Name 2]
-- [Name 3]
+- [Student 1 Name]
+- [Student 2 Name] 
+- [Student 3 Name]
 
-## Project for: Limkokwing University of Creative Technology
-## Course: B/DIWA2110 Web Application Development
+## Project Information
+- **Course:** B/DIWA2110 Web Application Development
+- **Institution:** Limkokwing University of Creative Technology
+- **Semester:** 1
+- **Duration:** Week 10 - Week 15

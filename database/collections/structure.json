@@ -1,0 +1,17 @@
+﻿{
+  "users": {
+    "fields": ["uid", "email", "role", "profile", "createdAt", "emailVerified"]
+  },
+  "institutions": {
+    "fields": ["id", "name", "email", "address", "contact", "faculties", "status", "createdAt"]
+  },
+  "courses": {
+    "fields": ["id", "name", "institutionId", "faculty", "requirements", "duration", "seats", "status"]
+  },
+  "applications": {
+    "fields": ["id", "studentId", "courseId", "institutionId", "applicationDate", "status", "documents"]
+  },
+  "jobs": {
+    "fields": ["id", "companyId", "title", "description", "requirements", "qualifications", "deadline", "status"]
+  }
+}
